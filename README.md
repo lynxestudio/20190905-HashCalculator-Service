@@ -42,17 +42,17 @@ Testing with different algorithms, we can see the length of the output.
 </p>
 
 <strong>Fig 3. Using the MD5 algorithm.</strong>
-
+<img src="images/fig3.png" width="904" height="484" alt="Using the MD5 algorithm">
 <strong>Fig 4. Using the SHA1 algorithm.</strong>
-
+<img src="images/fig4.png" width="911" height="450" alt="Using the SHA1 algorithm">
 <strong>Fig 5. Using the SHA256 algorithm.</strong>
-
+<img src="images/fig5.png" width="864" height="453" alt="Using the SHA256 algorithm">
 <strong>Fig 6. Using the SHA384 algorithm.</strong>
-
+<img src="images/fig6.png" width="876" height="451" alt="Using the SHA384 algorithm">
 <strong>Fig 7. Using the SHA512 algorithm.</strong>
-
+<img src="images/fig7.png" width="870" height="447" alt="Using the SHA512 algorithm">
 <strong>Fig 8. Changing the text, we can see a totally different output, but without no changes in the length.</strong>
-
+<img src="images/fig8.png" width="880" height="442" alt="Changing the text, we can see a totally different output, but without no changes in the length">
 <h3>Conclusion</h3>
 <p>
 Keeep in mind that hash functions do not encrypt the data. They use the data to make a fingerprint or snapshot of the data that is given to you as a code. That code is used to determine whether or not the data has been altered. If the data you receive has been altered, you will not get the same code number as the original data.
