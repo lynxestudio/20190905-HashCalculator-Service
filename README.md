@@ -20,15 +20,9 @@ The process of <strong>hashing</strong> involves passing data through a cryptogr
 For example, Message Digest 5 (MD5) is a 128-bit hash algorithm. This means that no matter what the size of the input data, the output hash will always be 128 bits long. Hashing is not an encryption algorithm. Instead, hashing is used to produce a unique identifier of data without modifying the original data. The data could be a file, a hard drive, a network-traffic packet, or an email message.
 The hashed value is used to detect when changes have been made to a resource. For example, when a hard drive is being imaged to create an exact duplicate, a hash is produced of the original drive before the duplication process.
 </p>
-
-
-<strong>Fig 1. Summary of hashing algorithms</strong>
 <p>
 A hash tells you nothing about the data, but it uniquely identifies it. The hashed value is simply there for comparison.
 </p>
-
-
-<strong>Fig 2. The hash function operates on fixed-size blocks of data</strong>
 <p>
 Writing a simple Hash Calculator with AngularJS, HTML5, C# and WCF.
 I've written an app to demonstrate how to implement hash functions in a REST Service. The app communicates with a WCF REST service that uses the C# abstract class System.Security.Cryptography.HashAlgorithm to achieve encryption.
@@ -41,17 +35,17 @@ The hash web service presents the hash code to the user.
 Testing with different algorithms, we can see the length of the output.
 </p>
 
-<strong>Fig 3. Using the MD5 algorithm.</strong>
+<strong>Fig 1. Using the MD5 algorithm.</strong>
 <img src="images/fig3.png" width="904" height="484" alt="Using the MD5 algorithm">
-<strong>Fig 4. Using the SHA1 algorithm.</strong>
+<strong>Fig 2. Using the SHA1 algorithm.</strong>
 <img src="images/fig4.png" width="911" height="450" alt="Using the SHA1 algorithm">
-<strong>Fig 5. Using the SHA256 algorithm.</strong>
+<strong>Fig 3. Using the SHA256 algorithm.</strong>
 <img src="images/fig5.png" width="864" height="453" alt="Using the SHA256 algorithm">
-<strong>Fig 6. Using the SHA384 algorithm.</strong>
+<strong>Fig 4. Using the SHA384 algorithm.</strong>
 <img src="images/fig6.png" width="876" height="451" alt="Using the SHA384 algorithm">
-<strong>Fig 7. Using the SHA512 algorithm.</strong>
+<strong>Fig 5. Using the SHA512 algorithm.</strong>
 <img src="images/fig7.png" width="870" height="447" alt="Using the SHA512 algorithm">
-<strong>Fig 8. Changing the text, we can see a totally different output, but without no changes in the length.</strong>
+<strong>Fig 6. Changing the text, we can see a totally different output, but without no changes in the length.</strong>
 <img src="images/fig8.png" width="880" height="442" alt="Changing the text, we can see a totally different output, but without no changes in the length">
 <h3>Conclusion</h3>
 <p>
